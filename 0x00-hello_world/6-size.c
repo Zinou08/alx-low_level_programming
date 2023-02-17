@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
- * main - Entry
- * Return:  Always 0
+ * main - sizeof
+ * Return 0 (Success)
  */
-int main(void) 
+int main(void)
 {
 char a;
-int b; 
+int b;
 long int c;
 long long int d;
 float f;
@@ -17,4 +17,3 @@ printf("Size of a Long long int: %lu bytes(s)\n", (unsigned long)sizeof(d));
 printf("Size of a float: %lu bytes(s)\n", (unsigned long)sizeof(f));
 return (0);
 }
-
