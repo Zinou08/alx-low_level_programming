@@ -1,15 +1,23 @@
-#include <stdio.h>
+#include<stdio.h>
+
 /**
- * main - prints all single digit numbers of base
- * 10 starting from 0, followed by a new line
+ * main - Entry point
+ *
+ * Description: print all single digit numbers
+ *
  * Return: Always 0 (Success)
- */
+*/
+
 int main(void)
 {
-	int n;
+	int num = 0;
 
-	for (n = 0; n < 10; n++)
-		printf("%d", n);
+	while (num <= 9)
+	{
+		printf("%i", num);
+		++num;
+	}
 	printf("\n");
+
 	return (0);
 }
